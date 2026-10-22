@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Studio  Fitness & Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="logo" href="#home">TRAINING <span>STUDIO</span>
+            </a>
+            <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-solid fa-bars"></i></label>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a class="active" href="#programs">About</a>
+                <a href="#classes">Classes</a>
+                <a href="#schedule">Schedules</a>
+                <a href="#contact">Contact</a>
+                <a class="btn nav-btn" href="#contact">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero" id="home">
+
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="gym-video.mp4" type="video/mp4">
+        </video>
+
+        <!-- Dark Overlay -->
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h4>
+                WORK HARDER, GET STRONGER
+            </h4>
+            <br>
+            <h1>
+                EASY WITH OUR <span>GYM</span>
+            </h1>
+
+            <a href="#programs" class="hero-btn">
+                BECOME A MEMBER
+            </a>
+        </div>
+
+    </section>
+    <main>
+        <section class="section programs" id="programs">
+            <div class="section-heading">
+                <h2>CHOOSE <span>PROGRAM</span></h2>
+                <div class="wave">≋≋≋</div>
+                <p>Training Studio is a fitness center for everyone. Build strength, improve your health<br
+                        class="desktop-only"> and reach your goals with our professional trainers.</p>
+            </div>
+            <div class="container program-grid">
+                <!-- article 1 -->
+                <article class="program-item">
+                    <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h3>Basic Fitness</h3>
+                        <p>Build a strong foundation with guided exercises suitable for beginners.</p><a
+                            href="#classes">DISCOVER
+                            MORE</a>
+                    </div>
+                </article>
+                <!-- article 2 -->
+                <article class="program-item">
+                    <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h3>Advanced Muscle Course</h3>
+                        <p>Improve strength and technique with a structured muscle training plan.</p><a
+                            href="#classes">DISCOVER
+                            MORE</a>
+                    </div>
+                </article>
+
+                <!-- 3 -->
+                <article class="program-item">
+                    <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h3>New Gym Training</h3>
+                        <p>Learn how to use gym equipment safely with support from our team.</p><a
+                            href="#classes">DISCOVER MORE</a>
+                    </div>
+                </article>
+                <!-- 4 -->
+                <article class="program-item">
+                    <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h3>Yoga Training</h3>
+                        <p>Improve flexibility, balance and focus through guided yoga sessions.</p><a
+                            href="#classes">DISCOVER
+                            MORE</a>
+                    </div>
+                </article>
+                <!-- 5 -->
+                <article class="program-item">
+                    <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h3>Basic Muscle Course</h3>
+                        <p>Start a balanced strength program with clear, achievable milestones.</p><a
+                            href="#classes">DISCOVER
+                            MORE</a>
+                    </div>
+                </article>
+                <!-- 6 -->
+                <article class="program-item">
+                    <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h3>Body Building Course</h3>
+                        <p>Train consistently with a plan designed around your personal goals.</p><a
+                            href="#classes">DISCOVER
+                            MORE</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta" id="home">
+            <div class="cta-overlay"></div>
+            <div class="cta-content">
+                <h2>DON'T <span>THINK</span>, BEGIN <span>TODAY!</span></h2>
+                <p>Take the first step towards a healthier, stronger you. Our friendly trainers are ready to help you
+                    get
+                    started.</p><a class="btn" href="#contact">BECOME A MEMBER</a>
+            </div>
+        </section>
+
+        <section class="section classes" id="classes">
+            <div class="section-heading">
+                <h2>OUR <span>CLASSES</span></h2>
+                <div class="wave">≋≋≋</div>
+                <p>Choose a class that fits your interests and schedule. Train with experienced<br class="desktop-only">
+                    coaches
+                    in a welcoming and motivating environment.</p>
+            </div>
+            <div class="container class-layout">
+                <div class="class-tabs"><a class="class-tab selected" href="#class-detail"><i
+                            class="fa-solid fa-dumbbell"></i>
+                        First Training Class</a><a class="class-tab" href="#class-detail"><i
+                            class="fa-solid fa-dumbbell"></i>
+                        Second Training Class</a><a class="class-tab" href="#class-detail"><i
+                            class="fa-solid fa-dumbbell"></i>
+                        Third Training Class</a><a class="class-tab" href="#class-detail"><i
+                            class="fa-solid fa-dumbbell"></i>
+                        Fourth Training Class</a><a class="btn all-schedules" href="#schedule">View All Schedules</a>
+                </div>
+                <article class="class-detail" id="class-detail"><img
+                        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85"
+                        alt="Athlete training with weights">
+                    <h3>First Training Class</h3>
+                    <p>Build confidence with a full-body workout that combines strength, mobility and good technique.
+                        Our trainers
+                        will help you adapt each exercise to your level.</p><a class="btn" href="#schedule">VIEW
+                        SCHEDULE</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="schedule-section" id="schedule">
+            <div class="section-heading light">
+                <h2>CLASSES <span>SCHEDULE</span></h2>
+                <div class="wave">≋≋≋</div>
+                <p>Find a convenient time and make training part of your weekly routine.</p>
+            </div>
+            <div class="container">
+                <div class="days"><a class="day-active" href="#schedule">Monday</a><b>/</b><a
+                        href="#schedule">Tuesday</a><b>/</b><a href="#schedule">Wednesday</a><b>/</b><a
+                        href="#schedule">Thursday</a><b>/</b><a href="#schedule">Friday</a></div>
+                <div class="table-scroll">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Fitness Class</td>
+                                <td>10:00AM - 11:30AM</td>
+                                <td>Beginner friendly</td>
+                                <td>William G. Stewart</td>
+                            </tr>
+                            <tr>
+                                <td>Muscle Training</td>
+                                <td>11:30AM - 1:00PM</td>
+                                <td>Strength</td>
+                                <td>Paul D. Newman</td>
+                            </tr>
+                            <tr>
+                                <td>Body Building</td>
+                                <td>2:00PM - 3:30PM</td>
+                                <td>Strength</td>
+                                <td>Boyd C. Harris</td>
+                            </tr>
+                            <tr>
+                                <td>Yoga Training Class</td>
+                                <td>3:30PM - 4:30PM</td>
+                                <td>Flexibility</td>
+                                <td>Hector T. Daigle</td>
+                            </tr>
+                            <tr>
+                                <td>Advanced Training</td>
+                                <td>5:00PM - 6:30PM</td>
+                                <td>Advanced</td>
+                                <td>Bret D. Bowers</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section trainers" id="trainers">
+            <div class="section-heading">
+                <h2>EXPERT <span>TRAINERS</span></h2>
+                <div class="wave">≋≋≋</div>
+                <p>Meet the coaches who will encourage you, guide your technique<br class="desktop-only"> and help you
+                    stay
+                    consistent.</p>
+            </div>
+            <div class="container trainer-grid">
+                <article class="trainer-card"><img
+                        src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=85"
+                        alt="Strength trainer">
+                    <div class="trainer-info"><span>Strength Trainer</span>
+                        <h3>Bret D. Bowers</h3>
+                        <p>Focused on safe strength training, technique and steady progress.</p>
+                        <div class="socials"><a href="#contact" aria-label="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a><a href="#contact" aria-label="Twitter"><i
+                                    class="fa-brands fa-twitter"></i></a><a href="#contact" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></div>
+                    </div>
+                </article>
+                <article class="trainer-card"><img
+                        src="https://images.unsplash.com/photo-1534368270820-9de3d8053204?auto=format&fit=crop&w=700&q=85"
+                        alt="Muscle trainer">
+                    <div class="trainer-info"><span>Muscle Trainer</span>
+                        <h3>Hector T. Daigle</h3>
+                        <p>Helping members build confidence through balanced workout plans.</p>
+                        <div class="socials"><a href="#contact" aria-label="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a><a href="#contact" aria-label="Twitter"><i
+                                    class="fa-brands fa-twitter"></i></a><a href="#contact" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></div>
+                    </div>
+                </article>
+                <article class="trainer-card"><img
+                        src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=700&q=85"
+                        alt="Power trainer">
+                    <div class="trainer-info"><span>Power Trainer</span>
+                        <h3>Paul D. Newman</h3>
+                        <p>Supporting your fitness journey with practical coaching and motivation.</p>
+                        <div class="socials"><a href="#contact" aria-label="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a><a href="#contact" aria-label="Twitter"><i
+                                    class="fa-brands fa-twitter"></i></a><a href="#contact" aria-label="LinkedIn"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="map-panel"><iframe title="Map location"
+                    src="https://maps.google.com/maps?q= Mogadishu%20Somalia&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="contact-panel">
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your Name*" required>
+                        <input type="email" name="email" placeholder="Your Email*" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" rows="6" placeholder="send Message hera" required>
+
+            </textarea>
+                    <button class="btn" type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2026 Training Studio · Designed with care by shafie ahmed</p>
+    </footer>
+
+
+</body>
+
+</html>
